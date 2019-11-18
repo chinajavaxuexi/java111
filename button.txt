@@ -1,0 +1,3 @@
+var redId = '{!Employee__c.Id}';
+var url = '/apex/AnkenSearch?id=' + redId;
+window.open(url);
